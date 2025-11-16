@@ -1,4 +1,4 @@
-# LearningMachines — Hacktoberfest 2025
+# LearningMachines
 
 A collaborative, no-frameworks (beyond NumPy) machine learning repo built from first principles.  
 We implement core algorithms line-by-line to understand the math, not just call `.fit()`.
