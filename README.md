@@ -10,6 +10,7 @@ We implement core algorithms line-by-line to understand the math, not just call 
 ## Table of Contents
 - [Goals](#goals)
 - [What’s Inside](#whats-inside)
+- [ToDo](#ToDo)
 - [Roadmap](#roadmap)
 
 ---
@@ -27,19 +28,21 @@ We implement core algorithms line-by-line to understand the math, not just call 
 
 - **Linear Regression (from scratch)**
   - Gradient Descent optimization
+  - Stochastic Gradient Descent optimization
   - Arbitrary feature dimensions
   - Minimal dependencies
-- **Examples & Notebooks**
-  - Synthetic data demos
-  - Plotting helpers
 
-> Coming next: **Linear Classifier** (Perceptron or Logistic Regression), metrics, and more algorithms.
+## ToDo
+
+> ToDo : Add **docstrings** and **comments** in model.py
+> ToDo : Select an appropriate Dataset and try the LinearRegression from scratch model
+> ToDo : Start with Linear Classifier - Perceptron
 
 ---
 
 ## Roadmap
 
-- [x] Linear Regression (GD)
+- [ ] Linear Regression (GD & SGD)
 - [ ] Linear Classifier — Perceptron
 - [ ] Logistic Regression (Binary)
 - [ ] Metrics: MSE, MAE, Accuracy, Precision/Recall
