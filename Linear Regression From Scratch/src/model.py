@@ -45,18 +45,22 @@ class LinearRegression:
         tol = 1e-4
         y_hat = np.zeros(self.y.shape,dtype=float)
         for epoch in range(self.n_iters):
-            old_cost = self._cost(y_hat)
+            old_cost = self._cost(self.X @ w)
             p = np.random.permutation(self.X.shape[0])
             x_shuffled = self.X[p]
             y_shuffled = self.y[p]
-            y_hat_shuffled = y_hat[p]
+            
             for i in range(self.X.shape[0]):
-                y_hat_shuffled[i] = x_shuffled[i] @ w
-                error = y_hat_shuffled[i] - y_shuffled[i]
+                xi = x_shuffled[i]
+                yi = y_shuffled[i]
+                pred_i = xi @ w
+                error = pred_i - yi
                 cost = 0.5 * (error)**2
-                grad = error * x_shuffled[i]
+                grad = error * xi
+                grad = np.clip(grad, -1e3, 1e3)
                 w = w - self.lr * grad
-            new_cost = self._cost(y_hat_shuffled)
+            y_pred_full = self.X @ w
+            new_cost = self._cost(y_pred_full)
             
             if epoch%1000==0:
                 print(f"Iteration: {epoch}\nWeight Norm {np.linalg.norm(w)} | Cost: {new_cost}")
@@ -65,6 +69,7 @@ class LinearRegression:
                 patience -= 1
             else:
                 patience = 10
+            old_cost = new_cost
 
             if patience == 0:
                 print(f"Converged after {epoch} iterations.")
