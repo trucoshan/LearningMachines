@@ -34,18 +34,17 @@ We implement core algorithms line-by-line to understand the math, not just call 
 
 ## ToDo
 
-> ToDo : Add **docstrings** and **comments** in model.py
-> ToDo : Select an appropriate Dataset and try the LinearRegression from scratch model
+> ToDo : Add **docstrings** and **comments** in model.py [Linear Regression from scratch]
 > ToDo : Start with Linear Classifier - Perceptron
 
 ---
 
 ## Roadmap
 
-- [ ] Linear Regression (GD & SGD)
+- [x] Linear Regression (GD & SGD)
 - [ ] Linear Classifier — Perceptron
 - [ ] Logistic Regression (Binary)
-- [ ] Metrics: MSE, MAE, Accuracy, Precision/Recall
+- [x] Metrics: MSE, MAE, Accuracy, Precision/Recall
 - [ ] Train/Val split utilities
 - [ ] Visualization helpers
 - [ ] Unit tests (pytest)
