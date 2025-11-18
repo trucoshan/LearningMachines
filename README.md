@@ -3,7 +3,7 @@
 A collaborative, no-frameworks (beyond NumPy) machine learning repo built from first principles.  
 We implement core algorithms line-by-line to understand the math, not just call `.fit()`.
 
-> Status: ✅ Linear Regression (from scratch) · ⏭️ Next: Linear Classifier (Perceptron / Logistic Regression)
+> Status: ✅ Logistic Regression (from scratch) · ⏭️ Next: Linear Classifier (Perceptron / Logistic Regression)
 
 ---
 
@@ -34,18 +34,17 @@ We implement core algorithms line-by-line to understand the math, not just call 
 
 ## ToDo
 
-> ToDo : Add **docstrings** and **comments** in model.py [Linear Regression from scratch]
-> ToDo : Start with Linear Classifier - Perceptron
+> ToDo : Add **docstrings** and **comments** in model.py [Linear Regression and Logistic Regression from scratch]
 
 ---
 
 ## Roadmap
 
 - [x] Linear Regression (GD & SGD)
-- [ ] Linear Classifier — Perceptron
-- [ ] Logistic Regression (Binary)
+- [x] Logistic Regression (Binary)
+- [ ] Support Vector Machines
 - [x] Metrics: MSE, MAE, Accuracy, Precision/Recall
-- [ ] Train/Val split utilities
+- [x] Train/Val split utilities
 - [ ] Visualization helpers
 - [ ] Unit tests (pytest)
-- [ ] Additional models: KNN, SVM (linear), Decision Trees
+- [ ] Additional models: KNN, Decision Trees
