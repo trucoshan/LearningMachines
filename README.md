@@ -3,7 +3,7 @@
 A collaborative, no-frameworks (beyond NumPy) machine learning repo built from first principles.  
 We implement core algorithms line-by-line to understand the math, not just call `.fit()`.
 
-> Status: ✅ Logistic Regression (from scratch) · ⏭️ Next: Linear Classifier (Perceptron / Logistic Regression)
+> Status: ✅ Logistic Regression (from scratch) · ⏭️ Next: Support Vector Machines
 
 ---
 
