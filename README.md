@@ -18,7 +18,7 @@ We implement core algorithms line-by-line to understand the math, not just call 
 ## Goals
 
 - Demystify ML by **implementing algorithms from scratch**.
-- Build a **friendly collaboration space** for Hacktoberfest 2025.
+- Build a **friendly collaboration space** for anyone and everyone.
 - Keep code **minimal, readable, and well-documented**.
 - Add **tests and examples** as we go.
 
