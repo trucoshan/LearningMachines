@@ -32,6 +32,21 @@ We implement core algorithms line-by-line to understand the math, not just call 
   - Arbitrary feature dimensions
   - Minimal dependencies
 
+- **Logistic Regression (from scratch)**
+  - Gradient Descent optimization
+  - Minimal dependencies
+  - Logistic hypothesis (sigmoid) 
+  - Cross-entropy cost 
+  - Gradient Descent 
+  - Weight initialization 
+  - Feature standardization 
+  - Proper train–validation split 
+  - Convergence checks 
+  - Forward + backward pass 
+  - Evaluation pipeline (MSE/RMSE) 
+  - End-to-end NumPy workflow
+
+
 ## ToDo
 
 > ToDo : Add **docstrings** and **comments** in model.py [Linear Regression and Logistic Regression from scratch]
